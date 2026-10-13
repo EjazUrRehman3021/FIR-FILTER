@@ -1,0 +1,17 @@
+# Ignore large CSV dataset files (too large for GitHub)
+*.csv
+
+# Ignore large model files (>100MB, exceeds GitHub limit)
+window_classifier.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+*.env
